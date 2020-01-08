@@ -1,36 +1,56 @@
 <template>
-  <section id="welcome" class="hide-overflow"
-  >
+  <section id="welcome" class="hide-overflow" >
     <v-layout>
       <v-flex hidden-sm-and-down md6 >
         <v-img :src="require('@/assets/welcome.png')" height="100vh" />
       </v-flex>
 
       <v-flex xs12 md6 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap >
-        <base-chip-1 style="transform: rotate(180deg) translate(5px, 37%)"/>
+        <v-layout column fill-height align-center justify-center>
+          <v-flex xs1 class="display-4 text-center font-weight-medium">
+            <div class="new-font text-center font-weight-medium mb4">Jason Gedamke</div>
+            <v-tooltip left>
+              <template v-slot:activator="{ on }">
+                <a href="https://linkedin.com/in/jasonwgedamke">
+                  <v-icon x-large color="blue" v-on="on" class="mx-3 fab fa-linkedin"></v-icon>
+                </a>
+              </template>
+              <span>LinkedIn</span>
+            </v-tooltip>
+            <v-tooltip top>
+              <template v-slot:activator="{ on }">
+                <a href="https://github.com/jaswged">
+                  <v-icon x-large color="black" v-on="on" class="mx-3 fab fa-github"></v-icon>
+                </a>
+              </template>
+              <span>GitHub</span>
+            </v-tooltip>
+            <v-tooltip right>
+              <template v-slot:activator="{ on }">
+                <a href="mailto:jaswged@gmail.com">
+                  <v-icon x-large color="red lighten-1" v-on="on" class="mx-3 fas fa-envelope"></v-icon>
+                </a>
+              </template>
+              <span>Email</span>
+            </v-tooltip>
 
-        <v-layout align-center justify-center>
-          <v-flex xs10  md6 >
-            <base-heading>Jason Gedamke</base-heading>
-            <base-text>
-              Hello, I'm Jason Gedamke. This site is a collection of information about me and some of my projects.
-              <br>
-              On this site I post projects that I've worked on, as well as things I'm interested in. 
-              Feel free to look around or reach out to me if you want to connect.
-            </base-text>
-            <base-btn large class="mt-4" target="_blank" href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing">
-              Download Resume
-              <em class="fa fa-download"></em>
-            </base-btn>
+            <v-flex>
+              <base-btn large target="_blank" href="@/assets/resources/GedamkeResume.pdf" download>
+                Download Resume
+                <em class="fa fa-download"></em>
+              </base-btn>
+            </v-flex>            
+
+            <div class="display-1">
+              <span class="new-font">Data Architect</span>
+              <br />
+              <span class="new-font">Full Stack Developer</span>
+              <br />
+              <span class="new-font">Lifelong Learner</span>
+            </div>
           </v-flex>
         </v-layout>
-
-        <base-chip-2 style="transform: rotate(180deg) translate(-75px, -27%)"/>
       </v-flex>
     </v-layout>
   </section>
 </template>
-
-<style scoped>
-
-</style>
