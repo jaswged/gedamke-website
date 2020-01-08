@@ -27,16 +27,12 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <ul>
-                <li
-                  class="body-1 hidden-sm-and-down"
-                  v-for="(outcome, index) in experience.outcomes"
-                  :key="index"
-                >{{outcome}}</li>
-                <li
-                  class="body-2 hidden-md-and-up"
-                  v-for="(outcome, index) in experience.outcomes"
-                  :key="index"
-                >{{outcome}}</li>
+                <li class="body-1 hidden-sm-and-down" v-for="(outcome, index) in experience.outcomes" :key="index">
+                  {{outcome}}
+                </li>
+                <li class="body-2 hidden-md-and-up" v-for="(outcome, index) in experience.outcomes" :key="index">
+                  {{outcome}}
+                </li>
               </ul>
             </v-expansion-panel-content>
           </v-expansion-panel>

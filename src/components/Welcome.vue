@@ -35,10 +35,11 @@
             </v-tooltip>
 
             <v-flex>
-              <base-btn large target="_blank" href="@/assets/resources/GedamkeResume.pdf" download>
-                Download Resume
-                <em class="fa fa-download"></em>
-              </base-btn>
+              <v-btn large color="secondary" rounded target="_blank" v-on:click="downloadResume">
+                <span class="mr-2">Download Resume
+                  <em class="fa fa-download"></em>
+                </span>
+              </v-btn>
             </v-flex>            
 
             <div class="display-1">
@@ -54,3 +55,15 @@
     </v-layout>
   </section>
 </template>
+<script>
+export default {
+  methods: {
+    downloadResume(){
+      window.alert("Reset called");
+      window.console.log("Reset called");
+      var href="file://D:/Workspaces/vue/gedamke-website/src/assets/resources/GedamkeResume.pdf";
+      window.console.log(href);
+    }
+  }
+}
+</script>
