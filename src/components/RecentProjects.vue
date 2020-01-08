@@ -19,9 +19,36 @@
           <v-container grid-list-md pa-2>
             <v-layout wrap>
               <v-flex v-for="(project, i) in projects" :key="i" xs12 md6>
-                <a href="#">
-                  <v-img :src="require(`@/assets/projects/${project.logo}`)" max-height="300"/>
-                </a>
+
+<span>
+            <v-card-text class="text-center grey--text text--darken-3 font-weight-medium body-1">
+              <a :href="project.url">
+                <h3>{{project.name}}</h3>
+              </a>
+            </v-card-text>
+
+            <v-card-actions>
+              <v-layout mb-1 justify-center>
+                <v-tooltip bottom color="black">
+                  <template v-slot:activator="{ on }">
+                    <a :href="project.github">
+                      <v-icon x-large color="black" v-on="on" class="fab fa-github"></v-icon>
+                    </a>
+                  </template>
+                  <span>{{project.label}}</span>
+                </v-tooltip>
+              </v-layout>
+            </v-card-actions></span>
+
+              <v-tooltip top color="black">
+                <template v-slot:activator="{ on }">
+                  <a :href="project.url">
+                    <v-img :src="require(`@/assets/projects/${project.logo}`)" aspect-ratio="1" :alt="project.alt" v-on="on"></v-img>
+                  </a>
+                </template>
+                <span>{{project.alt}}</span>
+              </v-tooltip>
+
               </v-flex>
             </v-layout>
           </v-container>
