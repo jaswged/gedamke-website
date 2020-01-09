@@ -67,7 +67,7 @@ export default {
           name: "Portfolio Website",
           logo: "portfolio.png",
           url: "https://jasongedamke.com",
-          github: "https://github.com/jaswged/portfolio-website",
+          github: "https://github.com/jaswged/gedamke-website",
           alt: "Where I showcase and talk about myself",
           label: "Portfolio Website's GitHub"
         },
@@ -76,18 +76,18 @@ export default {
           name: "Die Detector",
           logo: "portfolio.png",
           url: "https://jasongedamke.com",
-          github: "https://github.com/jaswged/portfolio-website",
-          alt: "Where I showcase and talk about myself",
-          label: "Portfolio Website's GitHub"
+          github: "https://github.com/jaswged/die-detector-api",
+          alt: "Machine Learning Detector for which type of die the image is of",
+          label: "Die Detector Api's GitHub"
         },
         {
           id: 3,
           name: "Sorting Visualizer",
           logo: "itch.jpg",
           url: "https://galacticinsight.itch.io/",
-          github: "https://github.com/jaswged",
-          alt: "Link to my itch page for my indie games",
-          label: "Indie games on Itch"
+          github: "https://github.com/jaswged/vue_sorting_visualizer",
+          alt: "Visualizer for sorting algorithms built on Vue.js",
+          label: "Visualizer for sorting algorithms built on Vue.js"
         },
         {
           id: 4,
@@ -103,9 +103,9 @@ export default {
           name: "Mancala AI, reinforcement learning",
           logo: "itch.jpg",
           url: "https://galacticinsight.itch.io/",
-          github: "https://github.com/jaswged",
-          alt: "Link to my itch page for my indie games",
-          label: "Indie games on Itch"
+          github: "https://github.com/jaswged/mancala-ai",
+          alt: "AI for playing Mancala trained with reinforcement learning",
+          label: "AI for playing Mancala trained with reinforcement learning"
         }        
     ]
   })

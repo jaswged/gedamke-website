@@ -1,7 +1,6 @@
 # gedamke-website
-```
 Portfolio website for Jason Gedamke
-```
+
 
 ## Project setup
 ```
