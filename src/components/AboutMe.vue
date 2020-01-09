@@ -25,11 +25,11 @@
       </v-flex>
 
       <v-flex hidden-sm-and-down md6 >
-      <v-carousel height="100%">
-        <v-carousel-item v-for="(image, i) in images" :key="i" >
-          <v-img :src="require(`@/assets/carousel/${image.src}`)" height="100%" />
-        </v-carousel-item>
-      </v-carousel>
+        <v-carousel height="100%">
+          <v-carousel-item v-for="(image, i) in images" :key="i" >
+            <v-img :src="require(`@/assets/carousel/${image.src}`)" height="100%" />
+          </v-carousel-item>
+        </v-carousel>
       </v-flex>
 
     </v-layout>
@@ -56,17 +56,17 @@ export default {
       }
     ],
     images: [
-        {
-          id: 3,
-          src: "falls.png",
-          alt: "Waterfall in northern Wi"
-        },
-        {
-          id: 2,
-          src: "pilot.png",
-          alt: "Student pilot"
-        }
-      ]
+      {
+        id: 1,
+        src: "pilot.png",
+        alt: "Student pilot"
+      },
+      {
+        id: 2,
+        src: "falls.png",
+        alt: "Waterfall in northern Wi"
+      }
+    ]
   })
 }
 </script>
