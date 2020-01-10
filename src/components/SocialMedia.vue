@@ -14,28 +14,23 @@ export default {
       default: false
     }
   },
-
   data: () => ({
     items: [
       {
-        name: 'Twitter',
+        name: 'LinkedIn',
         icon: 'mdi-linkedin'
       },
       {
-        name: 'Instagram',
-        icon: 'mdi-instagram'
-      },
-      {
-        name: 'Facebook',
-        icon: 'mdi-linkedin'
+        name: 'GitHub',
+        icon: 'mdi-github-circle'
       },
       {
         name: 'Email',
-        icon: 'mdi-email'
+        icon: 'mdi-gmail'
       },
       {
-        name: 'Phone',
-        icon: 'mdi-phone'
+        name: 'GitHub',
+        icon: 'mdi-github-box'
       }
     ]
   })

@@ -1,7 +1,5 @@
 <template>
-  <v-app-bar app v-scroll="onScroll"
-    :color="isTransparent ? 'transparent' : '#e8e8e8'"
-    flat >
+  <v-app-bar app v-scroll="onScroll" :color="isTransparent ? 'transparent' : '#e8e8e8'" flat >
     <v-spacer />
     <SocialMedia />
   </v-app-bar>
