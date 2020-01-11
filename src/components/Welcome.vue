@@ -35,15 +35,14 @@
             </v-tooltip>
 
             <v-flex>
-              <a href="./assets/resources/GedamkeResume.pdf" download>
-              <!-- <v-btn href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing" 
-                     target="_blank" color="green" dark large> -->
-              <v-btn large color="secondary" rounded target="_blank" href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing">
-                <span class="mr-2">Download Resume
-                  <em class="fa fa-download"></em>
-                </span>
-              </v-btn>
-              </a>
+              <!-- <a href="../../assets/resources/GedamkeResume.pdf" download> -->
+              <!-- <v-btn href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing"                      target="_blank" color="green" dark large> -->
+                <v-btn large color="secondary" rounded target="_blank" href="https://drive.google.com/open?id=1Ux3Olw4_cYYro9hKqFs2YrhLAa29mg9slmJVIBMweIw">
+                  <span class="mr-2">Download Resume
+                    <em class="fa fa-download"></em>
+                  </span>
+                </v-btn>
+              <!-- </a> -->
             </v-flex>            
 
             <div class="display-1">
@@ -59,15 +58,8 @@
     </v-layout>
   </section>
 </template>
-<script>
-export default {
-  methods: {
-    downloadResume(){
-      window.alert("Reset called");
-      window.console.log("Reset called");
-      var href="file://D:/Workspaces/vue/gedamke-website/src/assets/resources/GedamkeResume.pdf";
-      window.console.log(href);
-    }
-  }
+<style scoped>
+.v-application a{
+      color: #ffffff;
 }
-</script>
+</style>

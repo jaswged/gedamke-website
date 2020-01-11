@@ -2,7 +2,7 @@
   <section id="recent-projects" class="hide-overflow">
     <v-layout white>
       <v-flex hidden-sm-and-down md6 >
-        <v-img :src="require('@/assets/background.jpg')" height="100%"/>
+        <v-img :src="require('@/assets/keyboard.jpg')" height="100%"/>
       </v-flex>
 
       <v-flex xs12 md6 primary text-xs-center pa-5 white--text>
@@ -11,8 +11,8 @@
         </base-heading>
 
         <base-text class="mb-5">
-          On this site I post projects that I've worked on, as well as things I'm interested in. <br>
-            Feel free to look around or reach out to me if you want to connect.
+          These are some of the projects that I've worked on.<br>
+            Feel free to look around and reach out to me if you want to connect.
         </base-text>
 
         <v-card color="secondary">
@@ -20,25 +20,26 @@
             <v-layout wrap>
               <v-flex v-for="(project, i) in projects" :key="i" xs12 md6>
 
-<span>
-            <v-card-text class="text-center grey--text text--darken-3 font-weight-medium body-1">
-              <a :href="project.url">
-                <h3>{{project.name}}</h3>
-              </a>
-            </v-card-text>
+            <span>
+              <v-card-text class="text-center grey--text text--darken-3 font-weight-medium body-1">
+                <a :href="project.url">
+                  <h3>{{project.name}}</h3>
+                </a>
+              </v-card-text>
 
-            <v-card-actions>
-              <v-layout mb-1 justify-center>
-                <v-tooltip bottom color="black">
-                  <template v-slot:activator="{ on }">
-                    <a :href="project.github">
-                      <v-icon x-large color="black" v-on="on" class="fab fa-github"></v-icon>
-                    </a>
-                  </template>
-                  <span>{{project.label}}</span>
-                </v-tooltip>
-              </v-layout>
-            </v-card-actions></span>
+              <v-card-actions>
+                <v-layout mb-1 justify-center>
+                  <v-tooltip bottom color="black">
+                    <template v-slot:activator="{ on }">
+                      <a :href="project.github">
+                        <v-icon x-large color="black" v-on="on" class="fab fa-github"></v-icon>
+                      </a>
+                    </template>
+                    <span>{{project.label}}</span>
+                  </v-tooltip>
+                </v-layout>
+              </v-card-actions>
+            </span>
 
               <v-tooltip top color="black">
                 <template v-slot:activator="{ on }">
@@ -83,7 +84,7 @@ export default {
         {
           id: 3,
           name: "Sorting Visualizer",
-          logo: "itch.jpg",
+          logo: "itch.png",
           url: "https://galacticinsight.itch.io/",
           github: "https://github.com/jaswged/vue_sorting_visualizer",
           alt: "Visualizer for sorting algorithms built on Vue.js",
@@ -92,7 +93,7 @@ export default {
         {
           id: 4,
           name: "Games on Itch",
-          logo: "itch.jpg",
+          logo: "itch.png",
           url: "https://galacticinsight.itch.io/",
           github: "https://github.com/jaswged",
           alt: "Link to my itch page for my indie games",
@@ -101,7 +102,7 @@ export default {
         {
           id: 5,
           name: "Mancala AI, reinforcement learning",
-          logo: "itch.jpg",
+          logo: "itch.png",
           url: "https://galacticinsight.itch.io/",
           github: "https://github.com/jaswged/mancala-ai",
           alt: "AI for playing Mancala trained with reinforcement learning",
@@ -116,4 +117,8 @@ export default {
     background-color: #424242 !important;
     border-color: #0064A2 !important;
   }
+.v-application a{
+      color: #ffffff;
+      text-decoration: none;
+}
 </style>
