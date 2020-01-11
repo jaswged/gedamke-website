@@ -92,7 +92,7 @@ export default {
         },
         {
           id: 4,
-          name: "Games on Itch",
+          name: "My Games on Itch",
           logo: "itch.png",
           url: "https://galacticinsight.itch.io/",
           github: "https://github.com/jaswged",
