@@ -2,7 +2,7 @@
   <section id="resume" class="hide-overflow">
     <v-layout info white--text >
       <v-flex xs12 md6 pa-5 >
-        <v-expansion-panels style="padding-top: 5em">
+        <v-expansion-panels>
           <v-expansion-panel v-for="(experience,ind) in experiences" :key="ind">
             <v-expansion-panel-header>
               <v-layout>
