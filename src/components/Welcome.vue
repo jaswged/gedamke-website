@@ -35,14 +35,11 @@
             </v-tooltip>
 
             <v-flex>
-              <!-- <a href="../../assets/resources/GedamkeResume.pdf" download> -->
-              <!-- <v-btn href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing"                      target="_blank" color="green" dark large> -->
-                <v-btn large color="secondary" rounded target="_blank" href="https://drive.google.com/open?id=1Ux3Olw4_cYYro9hKqFs2YrhLAa29mg9slmJVIBMweIw">
+                <v-btn large color="secondary" rounded target="_blank" href="https://drive.google.com/open?id=1BrZLHpd7K5bx__gvN5AwRVdisi2hHnn3pi7mK9uPfvk">
                   <span class="mr-2">Download Resume
                     <em class="fa fa-download"></em>
                   </span>
                 </v-btn>
-              <!-- </a> -->
             </v-flex>            
 
             <div class="display-1">
