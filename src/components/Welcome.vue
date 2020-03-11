@@ -4,11 +4,17 @@
       <v-flex hidden-sm-and-down md6 >
         <v-img :src="require('@/assets/welcome.png')" height="100vh" />
       </v-flex>
-
+    <v-flex  pt-15>
+       
+    </v-flex>
       <v-flex xs12 md6 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap >
         <v-layout column fill-height align-center justify-center>
           <v-flex xs1 class="display-4 text-center font-weight-medium">
-            <div class="new-font text-center font-weight-medium mb4">Jason Gedamke</div>
+            
+            <div class="new-font text-center font-weight-medium mb4 text_size" 
+                :class="[$vuetify.breakpoint.mdAndUp ? 'display-4' : 'display-2 pt-10']">
+                Jason Gedamke
+            </div>
             <v-tooltip left>
               <template v-slot:activator="{ on }">
                 <a href="https://linkedin.com/in/jasonwgedamke">
@@ -58,5 +64,8 @@
 <style scoped>
 .v-application a{
       color: #ffffff;
+}
+.text_size{
+  font-weight: 
 }
 </style>
