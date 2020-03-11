@@ -12,7 +12,7 @@
           <v-flex xs1 class="display-4 text-center font-weight-medium">
             
             <div class="new-font text-center font-weight-medium mb4 text_size" 
-                :class="[$vuetify.breakpoint.mdAndUp ? 'display-4' : 'display-3 pt-10']">
+                :class="[$vuetify.breakpoint.mdAndUp ? 'display-4' : 'display-2 pt-10']">
                 Jason Gedamke
             </div>
             <v-tooltip left>
