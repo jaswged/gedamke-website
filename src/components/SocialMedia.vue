@@ -19,17 +19,17 @@ export default {
     items: [
       {
         name: 'LinkedIn',
-        icon: 'mdi-linkedin',
+        icon: 'fab fa-linkedin material-icons',
         link: 'https://linkedin.com/in/jasonwgedamke'
       },
       {
         name: 'GitHub',
-        icon: 'mdi-github-circle',
+        icon: 'fab fa-github material-icons',
         link: 'https://github.com/jaswged'
       },
       {
         name: 'Email',
-        icon: 'mdi-gmail',
+        icon: 'fa-envelope material-icons',
         link: 'mailto:jaswged@gmail.com'
       },
       {
