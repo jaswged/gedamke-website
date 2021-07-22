@@ -76,7 +76,7 @@ export default {
           id: 2,
           name: "Die Detector",
           logo: "die-detector-api.png",
-          url: "http://die-detector-api.us-east-2.elasticbeanstalk.com/upload",
+          url: "http://diedetector-env.eba-ypymk3gb.us-east-2.elasticbeanstalk.com/",
           github: "https://github.com/jaswged/die-detector-api",
           alt: "Machine Learning Detector for which type of die the image is of",
           label: "Die Detector Api's GitHub"
