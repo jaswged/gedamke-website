@@ -56,9 +56,9 @@ export default {
           title: "Senior Software Engineer",
           dates: "August 2021 - Present",
           outcomes: [
-            "ETL for Datalake using AWS glue and PySpark",
-            "Use SageMaker to generate predictive models",
-            "Provide feedback on student database designs"
+            "ETL for Datalake using AWS glue, PySpark and HUDI tables",
+            "Develop and maintain API's used by the majority of Major League Baseball teams",
+            "Use SageMaker to generate predictive models"
           ]
         },
         {
