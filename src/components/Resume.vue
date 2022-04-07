@@ -56,7 +56,7 @@ export default {
           title: "Senior Software Engineer",
           dates: "August 2021 - Present",
           outcomes: [
-            "ETL for Datalake using AWS glue, PySpark and HUDI tables",
+            "Build out Datalake using AWS glue, PySpark and HUDI tables",
             "Develop and maintain API's used by the majority of Major League Baseball teams",
             "Use SageMaker to generate predictive models"
           ]
@@ -65,7 +65,7 @@ export default {
           id: 2,
           company: "Northcentral Technical College",
           title: "Adjunct Instructor",
-          dates: "August 2019 - Present",
+          dates: "August 2019 - May 2021",
           outcomes: [
             "Lecture Database Design and SQL both in person and online via CANVAS",
             "Assisted in course and competency rewrite for the data curriculum",
