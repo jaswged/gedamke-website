@@ -52,9 +52,20 @@ export default {
       experiences: [
         {
           id: 1,
+          company: "Blast Motion",
+          title: "Senior Software Engineer",
+          dates: "August 2021 - Present",
+          outcomes: [
+            "Build out Datalake using AWS glue, PySpark and HUDI tables",
+            "Develop and maintain API's used by the majority of Major League Baseball teams",
+            "Use SageMaker to generate predictive models"
+          ]
+        },
+        {
+          id: 2,
           company: "Northcentral Technical College",
           title: "Adjunct Instructor",
-          dates: "August 2019 - Present",
+          dates: "August 2019 - May 2021",
           outcomes: [
             "Lecture Database Design and SQL both in person and online via CANVAS",
             "Assisted in course and competency rewrite for the data curriculum",
@@ -62,10 +73,10 @@ export default {
           ]
         },  
         {
-          id: 2,
+          id: 3,
           company: "Church Mutual Insurance Company",
           title: "Advisory New Application Developer",
-          dates: "October 2018 - Present",
+          dates: "October 2018 - August 2021",
           outcomes: [
             "Tech lead for a new Data Warehousing program, both architecture and design",
             "Create relational models from flat files, including xml, using Informatica",
@@ -74,7 +85,7 @@ export default {
           ]
         },
         {
-          id: 3,
+          id: 4,
           company: "Church Mutual Insurance Company",
           title: "New Application Developer",
           dates: "December 2014 - October 2018",
@@ -89,7 +100,7 @@ export default {
           ]
         },
         {
-          id: 4,
+          id: 5,
           company: "University of Wisconsin - Stevens Point",
           title: "Bachelor of Science",
           dates: "August 2009 - December 2014",
@@ -98,7 +109,7 @@ export default {
           ]
         },
         {
-          id: 5,
+          id: 6,
           company: "UWSP Tutoring and Learning Center",
           title: "Technology Tutor",
           dates: "August - December 2014",
@@ -110,7 +121,7 @@ export default {
           ]
         },
         {
-          id: 6,
+          id: 7,
           company: "Sentry Insurance",
           title: "Senior Capstone Externship",
           dates: "August - December 2014",
@@ -121,7 +132,7 @@ export default {
           ]
         },
         {
-          id: 7,
+          id: 8,
           company: "Church Mutual Insurance Company",
           title: "IT Intern, Java Developer",
           dates: "May - August 2014",
@@ -132,7 +143,7 @@ export default {
           ]
         },
         {
-          id: 8,
+          id: 9,
           company: "UWSP Planetarium and Observatory",
           title: "Planetarium and Observatory lecturer",
           dates: "November 2009 - May 2011",
