@@ -56,9 +56,12 @@ export default {
           title: "Senior Software Engineer",
           dates: "August 2021 - Present",
           outcomes: [
-            "Build out Datalake using AWS glue, PySpark and HUDI tables",
+            "Build out Datalake using AWS glue, PySpark and Iceberg/HUDI tables with over 2 billion rows",
             "Develop and maintain API's used by the majority of Major League Baseball teams",
-            "Use SageMaker to generate predictive models"
+            "Generate dashboards in ElasticSearch and AWS Quicksight to support business intelligence",
+            "Stream transactional data from DynamoDb to data lake using kinesis and glue for real time analytics",
+            "Produce Machine Learning models for impact detection and level of play classification with SageMaker",
+            "Build Terraform modules for AWS infrastructure to have reproducibility across environments"
           ]
         },
         {
@@ -68,8 +71,7 @@ export default {
           dates: "August 2019 - May 2021",
           outcomes: [
             "Lecture Database Design and SQL both in person and online via CANVAS",
-            "Assisted in course and competency rewrite for the data curriculum",
-            "Provide feedback on student database designs"
+            "Professor for Programming Concepts with C#"
           ]
         },  
         {
@@ -81,7 +83,8 @@ export default {
             "Tech lead for a new Data Warehousing program, both architecture and design",
             "Create relational models from flat files, including xml, using Informatica",
             "Develop and govern corporate wide data integrations with a Java REST API",
-            "Sit on application design approval board with architecture"
+            "Used python and pandas for quick prototyping and data profiling of statistics and patterns",
+            "Utilized Azure devops with git for continuous integration and deployment (CICD)"
           ]
         },
         {
@@ -93,7 +96,6 @@ export default {
             "Modeled Enterprise Data Warehouse for insurance policy and premium data",
             "Mentored and oversaw summer interns on Broker Management agile project",
             "Designed and created Account Master database",
-            "Created a profiling tool to determine counts, patterns, and statistics of data",
             "Integrated a new policy Admin system for Worker Compensation policies",
             "Spearheaded replacement of WebSphere saving $41,000 per year on licensing",
             "Rewrote the underwriting workflow system for document processing"
