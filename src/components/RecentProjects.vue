@@ -83,15 +83,6 @@ export default {
         },
         {
           id: 3,
-          name: "Sorting Visualizer",
-          logo: "SortingVisualizer.png",
-          url: "https://jasongedamke.com",
-          github: "https://github.com/jaswged/vue_sorting_visualizer",
-          alt: "Visualizer for sorting algorithms built on Vue.js",
-          label: "Visualizer for sorting algorithms built on Vue.js"
-        },
-        {
-          id: 4,
           name: "Mancala AI, reinforcement learning",
           logo: "Mancala-ai-logo.png",
           url: "https://jasongedamke.com",
@@ -100,7 +91,25 @@ export default {
           label: "AI for playing Mancala trained with reinforcement learning"
         },
         {
+          id: 4,
+          name: "Kaggle",
+          logo: "kaggle.png",
+          url: "https://www.kaggle.com/jasongedamke",
+          github: "https://github.com/jaswged/bengali-handwritten-ai",
+          alt: "Kaggle profile url",
+          label: "Kaggle profile url"
+        },
+        {
           id: 5,
+          name: "Sorting Visualizer",
+          logo: "SortingVisualizer.png",
+          url: "https://jasongedamke.com",
+          github: "https://github.com/jaswged/vue_sorting_visualizer",
+          alt: "Visualizer for sorting algorithms built on Vue.js",
+          label: "Visualizer for sorting algorithms built on Vue.js"
+        },
+        {
+          id: 6,
           name: "My Games on Itch",
           logo: "itch.png",
           url: "https://galacticinsight.itch.io/",
