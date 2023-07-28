@@ -52,9 +52,19 @@ export default {
       experiences: [
         {
           id: 1,
+          company: "Cross River Bank",
+          title: "Senior Data Engineer",
+          dates: "July 2023 - Present",
+          outcomes: [
+            "Build out AWS data platform using Airflow and DBT",
+            "Design and build enterprise data warehouse in Snowflake"
+          ]
+        },
+        {
+          id: 2,
           company: "Blast Motion",
           title: "Senior Software Engineer",
-          dates: "August 2021 - Present",
+          dates: "August 2021 - June 2023",
           outcomes: [
             "Build out Datalake using AWS glue, PySpark and Iceberg/HUDI tables with over 2 billion rows",
             "Develop and maintain API's used by the majority of Major League Baseball teams",
@@ -65,7 +75,7 @@ export default {
           ]
         },
         {
-          id: 2,
+          id: 3,
           company: "Northcentral Technical College",
           title: "Adjunct Instructor",
           dates: "August 2019 - May 2021",
@@ -75,7 +85,7 @@ export default {
           ]
         },  
         {
-          id: 3,
+          id: 4,
           company: "Church Mutual Insurance Company",
           title: "Advisory New Application Developer",
           dates: "October 2018 - August 2021",
@@ -88,7 +98,7 @@ export default {
           ]
         },
         {
-          id: 4,
+          id: 5,
           company: "Church Mutual Insurance Company",
           title: "New Application Developer",
           dates: "December 2014 - October 2018",
@@ -102,7 +112,7 @@ export default {
           ]
         },
         {
-          id: 5,
+          id: 6,
           company: "University of Wisconsin - Stevens Point",
           title: "Bachelor of Science",
           dates: "August 2009 - December 2014",
@@ -111,7 +121,7 @@ export default {
           ]
         },
         {
-          id: 6,
+          id: 7,
           company: "UWSP Tutoring and Learning Center",
           title: "Technology Tutor",
           dates: "August - December 2014",
@@ -123,7 +133,7 @@ export default {
           ]
         },
         {
-          id: 7,
+          id: 8,
           company: "Sentry Insurance",
           title: "Senior Capstone Externship",
           dates: "August - December 2014",
@@ -134,7 +144,7 @@ export default {
           ]
         },
         {
-          id: 8,
+          id: 9,
           company: "Church Mutual Insurance Company",
           title: "IT Intern, Java Developer",
           dates: "May - August 2014",
@@ -142,18 +152,6 @@ export default {
             "Designed and developed a Data Dictionary Java app with a db2 backend",
             "Modeled and constructed entire data base backend",
             "Executive presentation of project and overall experience"
-          ]
-        },
-        {
-          id: 9,
-          company: "UWSP Planetarium and Observatory",
-          title: "Planetarium and Observatory lecturer",
-          dates: "November 2009 - May 2011",
-          outcomes: [
-            "Lectured groups up to 60 people about the wonders of Astronomy and Physics",
-            "Enlightened people about the wonders of Astronomy and Physics",
-            "Kept equipment up to date and in working order",
-            "Orchestrated laser shows to music"
           ]
         }
       ]
