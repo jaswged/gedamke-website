@@ -57,7 +57,9 @@ export default {
           dates: "July 2023 - Present",
           outcomes: [
             "Build out AWS data platform using Airflow and DBT",
-            "Design and build enterprise data warehouse in Snowflake"
+            "Design an enterprise data mart in Snowflake for lending data and credit card transactions",
+            "Create AI chat-bots using rag and Llama models for balance sheet finance data",
+            "Parse over 100 million json and parquet files into a relational data format using rust"
           ]
         },
         {
