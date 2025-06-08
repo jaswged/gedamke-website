@@ -83,7 +83,7 @@ export default {
         },
         {
           id: 3,
-          name: "Mancala AI, reinforcement learning",
+          name: "Mancala AI",
           logo: "Mancala-ai-logo.png",
           url: "https://jasongedamke.com",
           github: "https://github.com/jaswged/mancala-ai",
@@ -95,28 +95,46 @@ export default {
           name: "Kaggle",
           logo: "kaggle.png",
           url: "https://www.kaggle.com/jasongedamke",
-          github: "https://github.com/jaswged/bengali-handwritten-ai",
+          github: "https://github.com/jaswged",
           alt: "Kaggle profile url",
           label: "Kaggle profile url"
         },
         {
           id: 5,
-          name: "Sorting Visualizer",
-          logo: "SortingVisualizer.png",
-          url: "https://jasongedamke.com",
-          github: "https://github.com/jaswged/vue_sorting_visualizer",
-          alt: "Visualizer for sorting algorithms built on Vue.js",
-          label: "Visualizer for sorting algorithms built on Vue.js"
+          name: "Blue Origin Telemetry tui",
+          logo: "blue.png",
+          url: "https://github.com/jaswged/blue_telemetry_tui",
+          github: "https://github.com/jaswged/blue_telemetry_tui",
+          alt: "Blue Origin Telemetry tui",
+          label: "Blue Origin Telemetry tui"
         },
         {
           id: 6,
+          name: "Healz GBA",
+          logo: "healz.png",
+          url: "https://galacticinsight.itch.io/healz-gba-jam",
+          github: "https://github.com/jaswged/Healz_gba_jam",
+          alt: "Healz GBA game on itch",
+          label: "Healz GBA game on itch"
+        },
+        {
+          id: 7,
           name: "My Games on Itch",
           logo: "itch.png",
           url: "https://galacticinsight.itch.io/",
           github: "https://github.com/jaswged",
           alt: "Link to my itch page for my indie games",
           label: "Indie games on Itch"
-        }       
+        },
+        {
+          id: 8,
+          name: "Sorting Visualizer",
+          logo: "SortingVisualizer.png",
+          url: "https://jasongedamke.com",
+          github: "https://github.com/jaswged/vue_sorting_visualizer",
+          alt: "Visualizer for sorting algorithms built on Vue.js",
+          label: "Visualizer for sorting algorithms built on Vue.js"
+        }  
     ]
   })
 }
