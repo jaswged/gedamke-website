@@ -48,7 +48,7 @@ export default {
       {
         name: "Powerlifting",
         body:
-          "Recently I got back into lifting weights and I chose to emphasize strength over aesthetics. I competed and got the gold medal in the Badger State Winter Games Bench and Deadlift competition. My current maxes are 475 Deadlift, 325 Squat and 280 Bench press."
+          "Recently I got back into lifting weights and I chose to emphasize strength over aesthetics. I competed and got the gold medal in the Badger State Winter Games Bench and Deadlift competition. Competition maxes were 475 Deadlift, 325 Squat and 280 Bench press."
       },
       {
         name: "Flying",

@@ -56,7 +56,7 @@ export default {
           title: "Senior Data Engineer",
           dates: "July 2023 - Present",
           outcomes: [
-            "Build out AWS data platform using Airflow and DBT",
+            "Build out AWS data platform using Airflow and DBT on AWS with several billion rows",
             "Design an enterprise data mart in Snowflake for lending data and credit card transactions",
             "Create AI chat-bots using rag and Llama models for balance sheet finance data",
             "Parse over 100 million json and parquet files into a relational data format using rust"
@@ -82,8 +82,8 @@ export default {
           title: "Adjunct Instructor",
           dates: "August 2019 - May 2021",
           outcomes: [
-            "Lecture Database Design and SQL both in person and online via CANVAS",
-            "Professor for Programming Concepts with C#"
+            "Lecture 'Database Design and SQL' both in person and online via CANVAS",
+            "Professor for 'Programming Concepts with C#'"
           ]
         },  
         {
