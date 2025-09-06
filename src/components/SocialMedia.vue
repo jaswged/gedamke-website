@@ -20,7 +20,7 @@ export default {
       {
         name: 'LinkedIn',
         icon: 'fab fa-linkedin material-icons',
-        link: 'https://linkedin.com/in/jasonwgedamke'
+        link: 'https://www.linkedin.com/in/jasonwgedamke'
       },
       {
         name: 'GitHub',

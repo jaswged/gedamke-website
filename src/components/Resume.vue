@@ -56,10 +56,13 @@ export default {
           title: "Senior Data Engineer",
           dates: "July 2023 - Present",
           outcomes: [
-            "Build out AWS data platform using Airflow and DBT on AWS with several billion rows",
-            "Design an enterprise data mart in Snowflake for lending data and credit card transactions",
-            "Create AI chat-bots using rag and Llama models for balance sheet finance data",
-            "Parse over 100 million json and parquet files into a relational data format using rust"
+            "Engineer multithreaded Rust pipelines to process 100M+ JSON files, enabling relational querying in Snowflake",
+            "Automate ingestion of S3 event streams with SQS and Fargate, enabling near-real-time data availability",
+            "Reimplement high-throughput AWS Lambda services in Rust, cutting compute costs by 50%",
+            "Accelerate decision-making with enterprise data marts supporting millions of credit card transactions",
+            "Achieve billion-row data processing capacity through scalable data pipeline optimization using Python and DBT",
+            "Improve financial data accessibility by deploying AI chatbots with Llama and RAG architecture",
+            "Craft data quality assurance test suites using Polars and DuckDB"
           ]
         },
         {
@@ -68,12 +71,11 @@ export default {
           title: "Senior Software Engineer",
           dates: "August 2021 - June 2023",
           outcomes: [
-            "Build out Datalake using AWS glue, PySpark and Iceberg/HUDI tables with over 2 billion rows",
-            "Develop and maintain API's used by the majority of Major League Baseball teams",
-            "Generate dashboards in ElasticSearch and AWS Quicksight to support business intelligence",
-            "Stream transactional data from DynamoDb to data lake using kinesis and glue for real time analytics",
-            "Produce Machine Learning models for impact detection and level of play classification with SageMaker",
-            "Build Terraform modules for AWS infrastructure to have reproducibility across environments"
+            "Streamed 6B+ transactions from DynamoDb to data lake using Kinesis and PySpark for real-time analysis",
+            "Produced ML models for impact detection and player classification, enhancing product insights",
+            "Delivered real-time sports analytics to MLB teams through high-availability APIs fronted by API Gateway",
+            "Wrote C# .NET lambdas to interconnect APIS to SQS queues and DynamoDb to improve system reliability",
+            "Standardized AWS infrastructure with Terraform modules, ensuring reproducibility across environments"
           ]
         },
         {
@@ -90,31 +92,17 @@ export default {
           id: 4,
           company: "Church Mutual Insurance Company",
           title: "Advisory New Application Developer",
-          dates: "October 2018 - August 2021",
+          dates: "December 2014 - August 2021",
           outcomes: [
-            "Tech lead for a new Data Warehousing program, both architecture and design",
-            "Create relational models from flat files, including xml, using Informatica",
-            "Develop and govern corporate wide data integrations with a Java REST API",
-            "Used python and pandas for quick prototyping and data profiling of statistics and patterns",
-            "Utilized Azure devops with git for continuous integration and deployment (CICD)"
+            "Architected an enterprise data warehousing program with change data capture and ETL",
+            "Modernized enterprise data strategy with CDC-driven architecture, enabling timely insights for BI",
+            "Profiled corporate data using Python and pandas for statistics, metrics and patterns",
+            "Developed and governed corporate wide data integrations with Java REST APIs",
+            "Reduced IT operating costs by $40K annually by spearheading a migration away from WebSphere"
           ]
         },
         {
           id: 5,
-          company: "Church Mutual Insurance Company",
-          title: "New Application Developer",
-          dates: "December 2014 - October 2018",
-          outcomes: [
-            "Modeled Enterprise Data Warehouse for insurance policy and premium data",
-            "Mentored and oversaw summer interns on Broker Management agile project",
-            "Designed and created Account Master database",
-            "Integrated a new policy Admin system for Worker Compensation policies",
-            "Spearheaded replacement of WebSphere saving $41,000 per year on licensing",
-            "Rewrote the underwriting workflow system for document processing"
-          ]
-        },
-        {
-          id: 6,
           company: "University of Wisconsin - Stevens Point",
           title: "Bachelor of Science",
           dates: "August 2009 - December 2014",
@@ -123,7 +111,7 @@ export default {
           ]
         },
         {
-          id: 7,
+          id: 6,
           company: "UWSP Tutoring and Learning Center",
           title: "Technology Tutor",
           dates: "August - December 2014",
@@ -135,7 +123,7 @@ export default {
           ]
         },
         {
-          id: 8,
+          id: 7,
           company: "Sentry Insurance",
           title: "Senior Capstone Externship",
           dates: "August - December 2014",
@@ -146,7 +134,7 @@ export default {
           ]
         },
         {
-          id: 9,
+          id: 8,
           company: "Church Mutual Insurance Company",
           title: "IT Intern, Java Developer",
           dates: "May - August 2014",
