@@ -74,24 +74,15 @@ export default {
         },
         {
           id: 2,
-          name: "Die Detector",
-          logo: "die-detector-api.png",
-          url: "http://diedetector-env.eba-ypymk3gb.us-east-2.elasticbeanstalk.com/",
-          github: "https://github.com/jaswged/die-detector-api",
-          alt: "Machine Learning Detector for which type of die the image is of",
-          label: "Die Detector Api's GitHub"
+          name: "Blue Origin Telemetry tui",
+          logo: "blue.png",
+          url: "https://github.com/jaswged/blue_telemetry_tui",
+          github: "https://github.com/jaswged/blue_telemetry_tui",
+          alt: "Blue Origin Telemetry tui",
+          label: "Blue Origin Telemetry tui"
         },
         {
           id: 3,
-          name: "Mancala AI",
-          logo: "Mancala-ai-logo.png",
-          url: "https://jasongedamke.com",
-          github: "https://github.com/jaswged/mancala-ai",
-          alt: "AI for playing Mancala trained with reinforcement learning",
-          label: "AI for playing Mancala trained with reinforcement learning"
-        },
-        {
-          id: 4,
           name: "Kaggle",
           logo: "kaggle.png",
           url: "https://www.kaggle.com/jasongedamke",
@@ -100,13 +91,22 @@ export default {
           label: "Kaggle profile url"
         },
         {
+          id: 4,
+          name: "Die Detector",
+          logo: "die-detector-api.png",
+          url: "http://diedetector-env.eba-ypymk3gb.us-east-2.elasticbeanstalk.com/",
+          github: "https://github.com/jaswged/die-detector-api",
+          alt: "Machine Learning Detector for which type of die the image is of",
+          label: "Die Detector Api's GitHub"
+        },
+        {
           id: 5,
-          name: "Blue Origin Telemetry tui",
-          logo: "blue.png",
-          url: "https://github.com/jaswged/blue_telemetry_tui",
-          github: "https://github.com/jaswged/blue_telemetry_tui",
-          alt: "Blue Origin Telemetry tui",
-          label: "Blue Origin Telemetry tui"
+          name: "Mancala AI",
+          logo: "Mancala-ai-logo.png",
+          url: "https://jasongedamke.com",
+          github: "https://github.com/jaswged/mancala-ai",
+          alt: "AI for playing Mancala trained with reinforcement learning",
+          label: "AI for playing Mancala trained with reinforcement learning"
         },
         {
           id: 6,
